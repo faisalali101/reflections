@@ -1,0 +1,29 @@
+Q.	How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A.	Viewing a diff of two files did help analyze the changes made in the file.
+	This could be helpful in finding issues faced, changes made in the file.
+	Maintenance of these will help in finding diff, rollback, reviewing and faster bug analysis.
+	
+Q.	How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A.	Having complete history of a file will help me find the changes made a particular moment.
+	It could help find issues, resolve bugs, and push correct changes so that code works perfectly.
+	
+Q.	What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A.	Manual commit can be troublesome, because commits will be made at irregular intervals, and lines committed might cause a problem in proper understanding of the code.
+	Auto save feature provided by Google Drive helps save file at regular interval, though, amount of file versions saved is large, but commits will have a meaning.
+	Even if they don't have meaning, one can build upon quickly.
+	
+Q.	Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+A.	Allwong multiple file save help save changes tobe made during a feature push.
+	It helps easier tracking of changes made for an objective which required changes to be made to multiple files.
+	Same could not apply on files on Google Docs, as assumption is the files uploaded there are independent of each other.
+	
+Q.	How can you use the commands git log and git diff to view the history of files?
+A.	Using git log, I can find details of the commits made into the repository.
+	Using git diff, I can view the changes made between two snapshots of the repository.
+	
+Q.	How might using version control make you more confident to make changes that could break something?
+A.	Using versioncontrol will surely help me find bug based on the commit made.
+	With the help of git log and git diff, it will be easier to trsck down changes made which introduced the bug and resolve it.
+	
+Q.	Now that you have your workspace set up, what do you want to try using Git for?
+A.	Use Git for version control of my files easily.
