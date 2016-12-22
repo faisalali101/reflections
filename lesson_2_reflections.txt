@@ -7,3 +7,25 @@ A.	Staging area is an intermediate area between repository and working directory
 	It helps decide which changes are to be moved from working directory on PC to repository.
 	Once, all files necessary are added to staging area from working directory using git add command;
 	all files can be committed at once to repository by using git commit command. 
+	
+Q.	How can you use the staging area to make sure you have one commit per logical change?
+A.	By using git diff and add command, you can compare and move changes one file(logical change) at a time to staging area.
+	By using git diff --staged command, you can compare latest commit and changes in staging area to decide if the selected logical change is relevant for committing.
+	
+Q.	What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A.	Branches would be helpful as changes made can be committed to sister branches without affecting master branch.
+	When required sister branch can be merged to master branch. This will help keep master branch safe and free of issues.
+	
+Q.	How do the diagrams help you visualize the branch structure?
+A.	Diagrams helps visualize all the brancches being used, all the commits made in those branches;
+	and reduce probability of making a commit without a branch and risk loosing the change due to detached HEAD.
+	
+Q.	What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A.	Merging two branches together help make one final master branch which contains changes from both the branches in chronological order.
+	It is represented in the diagram to help maintain history of all the changes made after branching out and merging after multiple commits on both the branches.
+	
+Q.	What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A.	Pros - Do not have to manually check for changes in each line of the code for two branches to find conflicts and resolve
+		   Automatic merge quickly finds and marks the code snippets of conflict which can be resolved quickly
+		   Time spent less, Manual work reduced.
+	Cons - None
