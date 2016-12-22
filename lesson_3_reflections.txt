@@ -1,1 +1,2 @@
-
+Q.  When would you want to use a remote repository rather than keeping all your work local?
+A.  When there is a need to keep the work kept locally safe and to keep remote repository updated.
